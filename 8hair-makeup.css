@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#hair-makeup 
+{
+    width: 100%;
+    padding: 70px 0;
+}
+.hair-makeup-row
+{
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+.hair-makeup-col
+{
+    flex-basis: 31%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #96008e15;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.hair-makeup-col p 
+{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px;
+
+}
+.user
+{
+    font-family: 'Roboto', sans-serif !important;
+    align-items: center;
+    margin: 20px 0 ;
+
+}
+.user img
+{
+    align-items: center;
+    width: 90%;
+    margin-right: 20px;
+    border-radius: 3px;
+
+}
+.user-info h4
+{
+    font-family: 'Roboto', sans-serif !important;
+
+}
+.user-info .fab
+{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+
+.user-info small
+{
+    font-family: 'Roboto', sans-serif !important;
+    color: #f87df6;
+}
+
+.hair-makeup-col:hover
+{
+    transform: translateY(-14px);
+}
+
+
+@media screen and (max-width: 770px)
+{
+    .hair-makeup-col
+    {
+        flex-basis:100%;
+    }
+}

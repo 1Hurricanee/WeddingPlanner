@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#dress
+{
+    width: 100%;
+    padding: 70px 0 ;
+}
+
+.title-text
+{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p 
+{
+    margin: auto;
+    font-size: 40px;
+    color: rgb(161, 98, 130);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    
+}
+.title-text p::after 
+{
+    content: '';
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(#f80759,#fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    font-family: bold;
+}
+
+
+.title-text h1
+{
+    font-size: 20px;
+    
+}
+
+.dress-box
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.dresss
+{
+    flex-basis: 50%;
+
+}
+.dresss-img
+{
+  flex-basis: 50%;  
+  margin: auto;
+
+}
+
+.dresss-img img
+{
+    width: 70%;
+    border-radius: 10px;
+    
+}
+.dresss h1
+{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: rgb(139, 85, 112);
+    font-family:bold ;
+}
+.dresss a 
+{
+    text-decoration: none;
+    color: #f953c6;
+    font-family: bold;
+}
+.dresss a:hover
+{
+    text-decoration: underline;
+}
+.dresss-desc
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.dress-icon .fas
+{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #f953c6;
+    border: 1px solid #f953c6 ;
+}
+.dress-icon .far
+{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #f953c6;
+    border: 1px solid #f953c6 ;
+}
+
+.dress-text p
+{
+    padding: 0 20px ;
+    text-align: initial;
+    font-family:bold ;
+}
+
+@media screen and (max-width: 770px) 
+{
+    .title-text h1 
+    {
+        font-size: 35px;
+    }
+    .dresss
+    {
+        flex-basis: 100%;
+    }
+    .dresss-img img 
+    {
+        width: 100%;
+    }
+}

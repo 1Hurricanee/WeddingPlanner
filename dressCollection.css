@@ -1,0 +1,108 @@
+*
+{
+    background-color:#f4c4f3 ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.container
+{   
+    background-color: #f4c4f3;
+    border-radius: 30px;
+}
+.container .home
+{
+    background-color: #f3aef2af;
+    border-radius: 20px;
+    padding: 10px;
+}
+.container .home h1
+{
+    padding-bottom: 70px;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    font-size: 40px;
+    color: rgb(116, 46, 81);
+    font-weight: bold;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.home .fas
+{
+    font-size: 18px;
+    color: black;
+    right: 120px;
+    top: 5px;
+    position: absolute;
+}
+.home a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    right: 40px;
+    top: 30px;
+    position: absolute;
+    cursor: pointer;
+}
+.logo
+{
+    width: 120px;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+
+.dress-collection
+{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    
+}
+.dress-pic
+{
+  margin: 5px;
+  float: left;
+  width: 390px;
+}
+.dress-pic img
+{   
+    border-radius: 40px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 20px 3px #96008e81;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.dress-pic img:hover
+{
+    transform: translateY(-12px);
+}
+@media screen and (max-width: 770px) 
+{
+    .logo
+    {
+        width: 80px;
+        position: absolute;
+        top: 1%;
+        left: 2%;
+    }
+    .dress-collection
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .dress-pic
+    {
+        margin: 5px;
+        float: left;
+        width: 390px;
+    }   
+}
